@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cálculo IMC</title>
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+
+  <div class="login-box">
+    <h2>Dados VIA CEP</h2>
+    <input type="text" id="cep" placeholder="Cep">
+    <button onclick="getEndereco()">Obter Dados</button>
+    <p id="logradouro"></p>
+    <p id="bairro"></p>
+    <p id="cidade"></p>
+    <p id="estado"></p>
+    <p id="regiao"></p>
+  </div>
+
+  <script src="./js/endereco.js"></script>
+</body>
+</html>
